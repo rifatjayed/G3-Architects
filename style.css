@@ -495,6 +495,7 @@ justify-content: center;
 .team-member-container{
     display: flex;
     flex-direction: column;
+    gap: 0;
    
 }
 

@@ -185,6 +185,42 @@ nav .logo h1 {
 }
 
 
+/* fact-section style */
+
+
+.fact-section {}
+
+.fact-item-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fact-item {
+    margin: 100px 0;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+
+
+.fact-item h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.fact-item p{
+    color: #727272;
+    font-weight: 600;
+font-size: 20px;
+}
+
+
+
 
 /* Media Queries */
 
@@ -194,6 +230,7 @@ nav .logo h1 {
     section {
         padding: 40px 50px;
     }
+
     h3 {
         color: #131313;
         font-weight: 600;
@@ -308,12 +345,13 @@ nav .logo h1 {
     .feature-list-left {
         padding: 0;
     }
-    
+
 
     .feature-list-section {
         display: flex;
-      flex-direction: column
+        flex-direction: column
     }
+
     .feature-list-right {
         margin-top: 25px;
     }

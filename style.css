@@ -253,17 +253,6 @@ font-size: 45px;
 
 
 
-/* team-member-style */
-.team{
-    text-align: center;
-}
-.team-member-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-}
-
 
 /* sponsor-section style */
 
@@ -489,15 +478,7 @@ justify-content: center;
 }
 
 
-/* our team section */
 
-
-.team-member-container{
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-   
-}
 
 
 /* sponsor-section style */

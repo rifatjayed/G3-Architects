@@ -220,6 +220,42 @@ nav .logo h1 {
     font-size: 20px;
 }
 
+/* sponsor-section style */
+
+.sponsor-section{
+    text-align: center;
+}
+.sponsor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 0 100px;
+}
+footer p{
+    text-align: center;
+    color: #424242;
+    font-weight: 400;
+font-size: 20px;
+padding: 40px 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -376,6 +412,25 @@ justify-content: center;
     border-radius: 8px;
 }
 
+/* sponsor-section style */
 
+.sponsor{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sponsor img{
+    margin-bottom: 30px;
+}
+
+footer{
+  
+    margin: 0 20px;
+}
+footer p{
+   
+padding: 20px 25px;
+}
 
 }

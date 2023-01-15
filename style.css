@@ -13,6 +13,13 @@ section {
     padding: 50px 150px;
 }
 
+h3 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
 .btn {
     background: #FF900E;
     padding: 20px 25px;
@@ -23,6 +30,12 @@ section {
     font-size: 20px;
     margin-top: 30px;
     display: inline-block;
+}
+
+.description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 /* header strat */
@@ -70,7 +83,7 @@ nav .logo h1 {
 }
 
 
-/* banner strat */
+/* banner style */
 .banner {
 
     padding: 50px 300px;
@@ -85,13 +98,6 @@ nav .logo h1 {
     margin-bottom: 25px;
 }
 
-.banner-description {
-    color: #727272;
-    font-weight: 400;
-    font-size: 16px;
-
-    text-align: center;
-}
 
 
 
@@ -126,11 +132,7 @@ nav .logo h1 {
     margin-left: 50px;
 }
 
-.feature-title h3 {
-    color: #131313;
-    font-weight: 700;
-    font-size: 45px;
-}
+
 
 .feature-title .quick {
     color: #727272;
@@ -144,17 +146,43 @@ nav .logo h1 {
     font-size: 45px;
 }
 
-.feature-description {
-    color: #727272;
-    font-weight: 400;
-    font-size: 16px;
+/* feature-list-section style */
+
+.feature-list-section {
+    display: flex;
+    align-items: center;
+}
+
+.feature-list-left {
+    padding: 0 50px;
 }
 
 
 
+.item-container {}
 
+.item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
 
+.item-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+}
 
+.feature-list-right {
+    width: 100%;
+}
+
+.feature-list-right img {
+    width: 100%;
+
+}
 
 
 
@@ -195,12 +223,8 @@ nav .logo h1 {
         font-size: 35px;
     }
 
-
     .main-menu ul {
         display: flex;
-        /* flex-direction: column; */
-
-
     }
 
     .main-menu ul li {
@@ -208,9 +232,6 @@ nav .logo h1 {
         text-align: right;
         margin-top: 20px;
         margin-left: 30px;
-  
-
-
     }
 
     .main-menu ul li a {
@@ -218,13 +239,9 @@ nav .logo h1 {
         font-size: 18px;
     }
 
-
-
     .banner {
 
         padding: 0;
-
-
     }
 
     .banner-title {
@@ -240,8 +257,6 @@ nav .logo h1 {
         font-weight: 400;
         font-size: 16px;
     }
-
-
 
     .banner-section img {
         display: block;
@@ -262,32 +277,26 @@ nav .logo h1 {
     }
 
     .feature-right {
-    
+
         margin-top: 30px;
     }
-    
+
     .feature-title h3 {
         color: #131313;
         font-weight: 700;
         font-size: 35px;
     }
-    
-    .feature-title .quick{
+
+    .feature-title .quick {
         color: #727272;
         font-weight: 500;
         font-size: 35px;
     }
-    
-    .feature-title .feature{
+
+    .feature-title .feature {
         color: #FF900E;
         font-weight: 700;
         font-size: 35px;
-    }
-    
-    .feature-description {
-        color: #727272;
-        font-weight: 400;
-        font-size: 16px;
     }
 
 }

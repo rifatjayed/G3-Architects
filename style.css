@@ -9,6 +9,10 @@
 
 }
 
+section {
+    padding: 50px 150px;
+}
+
 .btn {
     background: #FF900E;
     padding: 20px 25px;
@@ -18,6 +22,7 @@
     font-weight: 600;
     font-size: 20px;
     margin-top: 30px;
+    display: inline-block;
 }
 
 /* header strat */
@@ -97,14 +102,53 @@ nav .logo h1 {
     width: 70%;
 }
 
+/* features-section-style */
 
+.features-section {
+    display: flex;
+    align-items: center;
 
+}
 
+.feature-left {
+  
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    gap: 20px;
+}
 
+.feature-left img{
+    width: 100%;
+}
 
+.feature-right {
+    
+    margin-left: 50px;
+}
 
+.feature-title h3 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
 
+.feature-title .quick{
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
 
+.feature-title .feature{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.feature-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
 
 
 

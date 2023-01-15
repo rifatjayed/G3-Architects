@@ -111,18 +111,18 @@ nav .logo h1 {
 }
 
 .feature-left {
-  
+
     display: grid;
     grid-template-columns: repeat(2, 250px);
     gap: 20px;
 }
 
-.feature-left img{
+.feature-left img {
     width: 100%;
 }
 
 .feature-right {
-    
+
     margin-left: 50px;
 }
 
@@ -132,13 +132,13 @@ nav .logo h1 {
     font-size: 45px;
 }
 
-.feature-title .quick{
+.feature-title .quick {
     color: #727272;
     font-weight: 500;
     font-size: 45px;
 }
 
-.feature-title .feature{
+.feature-title .feature {
     color: #FF900E;
     font-weight: 700;
     font-size: 45px;
@@ -163,8 +163,15 @@ nav .logo h1 {
 /* Mobile device */
 
 @media screen and (max-width:576px) {
+    section {
+        padding: 40px 50px;
+    }
+
+
     .btn {
         margin-bottom: 35px;
+        padding: 15px 20px;
+        font-size: 18px;
     }
 
     header {
@@ -175,6 +182,7 @@ nav .logo h1 {
 
     nav {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-between;
         padding: 50px;
@@ -190,7 +198,7 @@ nav .logo h1 {
 
     .main-menu ul {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
 
 
     }
@@ -198,7 +206,9 @@ nav .logo h1 {
     .main-menu ul li {
         display: flex;
         text-align: right;
-        padding: 5px;
+        margin-top: 20px;
+        margin-left: 30px;
+  
 
 
     }
@@ -239,4 +249,45 @@ nav .logo h1 {
         margin-right: auto;
         width: 70%;
     }
+
+    .features-section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .feature-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-right {
+    
+        margin-top: 30px;
+    }
+    
+    .feature-title h3 {
+        color: #131313;
+        font-weight: 700;
+        font-size: 35px;
+    }
+    
+    .feature-title .quick{
+        color: #727272;
+        font-weight: 500;
+        font-size: 35px;
+    }
+    
+    .feature-title .feature{
+        color: #FF900E;
+        font-weight: 700;
+        font-size: 35px;
+    }
+    
+    .feature-description {
+        color: #727272;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
 }

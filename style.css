@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Work Sans';
-    
+
 }
 
 .btn {
@@ -19,6 +19,7 @@
     font-size: 20px;
     margin-top: 30px;
 }
+
 /* header strat */
 
 header {
@@ -65,8 +66,8 @@ nav .logo h1 {
 
 
 /* banner strat */
-.banner{
-  
+.banner {
+
     padding: 50px 300px;
     text-align: center;
 
@@ -89,11 +90,11 @@ nav .logo h1 {
 
 
 
-.banner-section img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%; 
+.banner-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 
@@ -117,21 +118,23 @@ nav .logo h1 {
 
 /* Mobile device */
 
-@media screen and (max-width:576px){
-    .btn{
+@media screen and (max-width:576px) {
+    .btn {
         margin-bottom: 35px;
     }
+
     header {
         background: pink;
         padding: 20px 0;
-       
+
     }
+
     nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 50px;
-      
+
     }
 
     nav .logo h1 {
@@ -144,29 +147,30 @@ nav .logo h1 {
     .main-menu ul {
         display: flex;
         flex-direction: column;
-       
-    
+
+
     }
-    .main-menu ul li{
+
+    .main-menu ul li {
         display: flex;
-       text-align: right;
-       padding: 5px;
-       
-    
+        text-align: right;
+        padding: 5px;
+
+
     }
 
     .main-menu ul li a {
-font-weight: 500;
+        font-weight: 500;
         font-size: 18px;
     }
-        
-    
- 
-    .banner{
-  
+
+
+
+    .banner {
+
         padding: 0;
-       
-    
+
+
     }
 
     .banner-title {
@@ -174,21 +178,21 @@ font-weight: 500;
         color: #131313;
         font-weight: 700;
         font-size: 55px;
-        
+
     }
-    
+
     .banner-description {
         padding: 0 50px;
         font-weight: 400;
         font-size: 16px;
     }
-    
-    
-    
-    .banner-section img{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 70%; 
+
+
+
+    .banner-section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
     }
 }

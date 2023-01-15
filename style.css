@@ -356,7 +356,6 @@ nav .logo h1 {
     .feature-list-right {
         margin-top: 25px;
     }
-}
 .fact-item-container {
     display: flex;
 flex-direction: column;
@@ -375,4 +374,8 @@ justify-content: center;
     justify-content: center;
     border: 1px solid #FF900E;
     border-radius: 8px;
+}
+
+
+
 }

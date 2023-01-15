@@ -96,3 +96,99 @@ nav .logo h1 {
   width: 70%; 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+/* Mobile device */
+
+@media screen and (max-width:576px){
+    .btn{
+        margin-bottom: 35px;
+    }
+    header {
+        background: pink;
+        padding: 20px 0;
+       
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+      
+    }
+
+    nav .logo h1 {
+        color: #131313;
+        font-weight: 600;
+        font-size: 35px;
+    }
+
+
+    .main-menu ul {
+        display: flex;
+        flex-direction: column;
+       
+    
+    }
+    .main-menu ul li{
+        display: flex;
+       text-align: right;
+       padding: 5px;
+       
+    
+    }
+
+    .main-menu ul li a {
+font-weight: 500;
+        font-size: 18px;
+    }
+        
+    
+ 
+    .banner{
+  
+        padding: 0;
+       
+    
+    }
+
+    .banner-title {
+        margin-top: 50px;
+        color: #131313;
+        font-weight: 700;
+        font-size: 55px;
+        
+    }
+    
+    .banner-description {
+        padding: 0 50px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    
+    
+    .banner-section img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%; 
+    }
+}
